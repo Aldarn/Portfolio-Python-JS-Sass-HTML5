@@ -1,0 +1,49 @@
+h1 {
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.6rem;
+	padding-top: 1rem;
+	margin: 0;
+}
+
+p, div {
+	font-size: 1.2rem;
+}
+
+#header, #footer, #content { 
+	position: absolute; 
+	right: 0;
+	left: 0; 
+	background: #FFF;
+}
+
+#header {
+	height: 5em; 
+	top: 0;
+	margin: 1em;
+}
+
+#footer {
+	height: 1em; 
+	bottom: 0;
+	margin: 1em;
+	font-size: 1rem;
+}
+
+#content {
+	top: 7em;
+	bottom: 3em;
+	background: #FFF;
+	overflow: hidden;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#content_inner {
+	height: 100%;
+	overflow: auto;
+}

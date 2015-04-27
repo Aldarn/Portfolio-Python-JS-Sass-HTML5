@@ -1,3 +1,5 @@
+from Server import Server
+
 def main ():
 	"""
 	Initializes the program.

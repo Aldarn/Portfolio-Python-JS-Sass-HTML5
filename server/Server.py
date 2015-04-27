@@ -21,9 +21,10 @@ class Server (object):
         self.port               = port
 
         # Start the Flask server
-        http                    = WSGIServer((host, port), self.FLASK_APP)
-        http.serve_forever()
-
+        # http                    = WSGIServer((host, port), self.FLASK_APP)
+        # http.serve_forever()
+        # TODO: Use WSGI instead
+        FLASK_APP.run()
 
     # Index page
     @FLASK_APP.route("/")
